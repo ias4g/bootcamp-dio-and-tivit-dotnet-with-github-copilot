@@ -57,9 +57,9 @@ Fique à vontade para explorar os projetos, sugerir melhorias ou trocar experiê
 <br>
 <br>
    créditos:
-<a href="https://web.dio.me/home">
+<a href="https://web.dio.me/home" target="_blank">
 
-![alt text](/images/dio.png)
+![Dio-Logo](/images/dio.png)
 
 </a>
 </div>
