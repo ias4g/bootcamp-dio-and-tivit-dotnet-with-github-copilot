@@ -39,6 +39,10 @@ Exercícios práticos para aplicar os conceitos aprendidos e testar o domínio t
 
 Construção de projetos completos voltados para portfólio, consolidando o aprendizado de forma prática e progressiva.
 
+| DESAFIOS DE PROJETOS |
+|---|
+| [Desafio Fundamentos](/DesafioFundamentos/)|
+
 ## 🚀 Considerações Finais
 
 Este repositório representa minha evolução prática no desenvolvimento back-end com .NET, servindo tanto como **registro de aprendizado** quanto como **material de portfólio profissional**.

@@ -2,8 +2,6 @@
 
 ### 🎓 DIO - Trilha .NET - Fundamentos
 
-[www.dio.me](http://www.dio.me)
-
 #### 📝 Sobre o Desafio
 
 Para este desafio, você precisará aplicar os conhecimentos adquiridos no módulo de fundamentos da trilha .NET da DIO. É hora de colocar a mão na massa com C#!
