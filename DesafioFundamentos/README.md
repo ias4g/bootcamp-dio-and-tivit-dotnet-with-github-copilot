@@ -1,38 +1,78 @@
-# DIO - Trilha .NET - Fundamentos
-www.dio.me
+# 🚀 DESAFIO DE PROJETO
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+### 🎓 DIO - Trilha .NET - Fundamentos
 
-## Contexto
-Você foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
+[www.dio.me](http://www.dio.me)
 
-## Proposta
-Você precisará construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
+#### 📝 Sobre o Desafio
+
+Para este desafio, você precisará aplicar os conhecimentos adquiridos no módulo de fundamentos da trilha .NET da DIO. É hora de colocar a mão na massa com C#!
+
+#### 🏢 Contexto
+
+Você foi contratado para construir um sistema para um **estacionamento**. O objetivo é gerenciar os veículos, realizando operações essenciais como adicionar e remover automóveis, além de calcular o valor devido e listar a frota atual.
+
+#### 🏗️ Proposta: Classe `Estacionamento`
+
+Você deverá implementar a classe base seguindo a estrutura lógica abaixo:
+
 ![Diagrama de classe estacionamento](../images/diagrama_classe_estacionamento.png)
 
-A classe contém três variáveis, sendo:
 
-**precoInicial**: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
+**Variables (Atributos):**
 
-**precoPorHora**: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
+* **`precoInicial`** (decimal): O valor fixo cobrado apenas por entrar no estacionamento.
+* **`precoPorHora`** (decimal): O valor cobrado por cada hora que o veículo permanecer na vaga.
+* **`veiculos`** (List<string>): Uma lista que armazena as **placas** dos veículos estacionados.
 
-**veiculos**: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
+---
 
-A classe contém três métodos, sendo:
+#### 🛠️ Funcionalidades Esperadas (Métodos)
 
-**AdicionarVeiculo**: Método responsável por receber uma placa digitada pelo usuário e guardar na variável **veiculos**.
-
-**RemoverVeiculo**: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: **precoInicial** * **precoPorHora**, exibindo para o usuário.
-
-**ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
-
-Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
-1. Cadastrar veículo
-2. Remover veículo
-3. Listar veículos
-4. Encerrar
+* **➕ AdicionarVeiculo**: Solicita a placa ao usuário e a armazena na lista `veiculos`.
+* **➖ RemoverVeiculo**:
+  1. Verifica se a placa existe no sistema.
+  2. Pede a quantidade de horas que o veículo ficou parado.
+  3. Calcula o valor total. A fórmula lógica é:
+  4. Remove a placa da lista.
 
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+* **📋 ListarVeiculos**: Exibe todas as placas estacionadas. Se a lista estiver vazia, mostra a mensagem: *"Não há veículos estacionados"*.
+
+---
+
+#### 🎮 Menu Interativo
+
+O programa deve exibir um menu em loop com as seguintes opções:
+
+1. **🚗 Cadastrar veículo**
+2. **🗑️ Remover veículo**
+3. **📖 Listar veículos**
+4. **❌ Encerrar**
+
+#### 💡 Instruções de Solução
+
+O código inicial está disponível com marcações **"TODO"** (A fazer). Sua missão é substituir esses comentários pela lógica de programação correta para que o sistema funcione perfeitamente.
+
+---
+
+> **Dica:** Fique atento à conversão de tipos (strings para inteiros/decimais) ao receber dados do console!
+
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+<div align="center">
+   👋 Feito com ❤️ by Izael Silva 👋
+<br>
+<br>
+<br>
+   créditos:
+<a href="https://web.dio.me/home" target="_blank">
+
+![Dio-Logo](/images/dio.png)
+
+</a>
+</div>
