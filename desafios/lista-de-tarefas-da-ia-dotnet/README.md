@@ -17,7 +17,7 @@ Uma única linha contendo os nomes das tarefas reorganizadas, separados por espa
 A tabela abaixo apresenta exemplos de entrada e saída:
 
 | **Entrada** | **Saída** |
-|-----|-----|
+|:-----|:-----|
 | email <br> feito <br> relatorio <br> feito <br> deploy | `email` <br> `relatorio` <br> `deploy` <br> `feito` <br> `feito` |
 | feito <br> feito <br> teste | `teste` <br> `feito` <br> `feito` |
 | apresentacao <br> design <br> feito | `apresentacao` <br> `design` <br> `feito` |
