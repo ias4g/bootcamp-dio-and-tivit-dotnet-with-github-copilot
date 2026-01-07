@@ -7,7 +7,7 @@ namespace lista_de_sugestoes_inteligentes.implementacoes
 {
     public class OutraImplentacao
     {
-        void Main()
+        public void Main()
         {
             // Exibe uma mensagem solicitando a quantidade de comandos
             Console.Write("Digite a quantidade de comandos: ");

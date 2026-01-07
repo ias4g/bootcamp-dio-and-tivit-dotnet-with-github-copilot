@@ -7,7 +7,7 @@ namespace lista_de_sugestoes_inteligentes.implementacoes
 {
     public class MinhaImplementacao
     {
-        void Main()
+        public void Main()
         {
             Console.Write("\nDigite quanto comandos você que inserir: ");
             // Lê o número de comandos a serem processados

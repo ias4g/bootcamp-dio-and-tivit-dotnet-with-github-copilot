@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioFundamentos", "Desaf
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "desafios", "desafios", "{101DF971-9C0E-D225-BDEE-862DB552B61C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista-de-tarefas-da-ia-dotnet", "desafios\lista-de-tarefas-da-ia-dotnet\lista-de-tarefas-da-ia-dotnet.csproj", "{19BD1DE4-E978-E805-6459-7EDF4CE7EDCC}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista-de-sugestoes-inteligentes", "desafios\lista-de-sugestoes-inteligentes\lista-de-sugestoes-inteligentes.csproj", "{6C05E8DF-0DEF-21D0-B2A1-1176A36EA28C}"
 EndProject
 Global
@@ -18,6 +20,10 @@ Global
 		{663F89AD-C19C-B691-08DB-17C74983D4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{663F89AD-C19C-B691-08DB-17C74983D4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{663F89AD-C19C-B691-08DB-17C74983D4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BD1DE4-E978-E805-6459-7EDF4CE7EDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BD1DE4-E978-E805-6459-7EDF4CE7EDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BD1DE4-E978-E805-6459-7EDF4CE7EDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BD1DE4-E978-E805-6459-7EDF4CE7EDCC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C05E8DF-0DEF-21D0-B2A1-1176A36EA28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C05E8DF-0DEF-21D0-B2A1-1176A36EA28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C05E8DF-0DEF-21D0-B2A1-1176A36EA28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,9 +33,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{19BD1DE4-E978-E805-6459-7EDF4CE7EDCC} = {101DF971-9C0E-D225-BDEE-862DB552B61C}
 		{6C05E8DF-0DEF-21D0-B2A1-1176A36EA28C} = {101DF971-9C0E-D225-BDEE-862DB552B61C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5DA85EC4-4265-40C0-9877-4255CE0357F2}
+		SolutionGuid = {6C029394-67CB-45E7-A6AC-ED13B1A0BB11}
 	EndGlobalSection
 EndGlobal
