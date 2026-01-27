@@ -1,5 +1,6 @@
 # Explorando Estruturas de Dados em .NET
-## Desafio - 1/2 - Lista de Sugestoes Inteligentes
+
+### Desafio - 1/2 - Lista de Sugestoes Inteligentes
 
 ### Desafio
 

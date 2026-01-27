@@ -1,5 +1,6 @@
 # Explorando Estruturas de Dados em .NET
-## Desafio - 2/2 - Lista de Tarefas da IA .NET
+
+### Desafio - 2/2 - Lista de Tarefas da IA .NET
 
 ### Desafio
 
