@@ -41,7 +41,8 @@ Construção de projetos completos voltados para portfólio, consolidando o apre
 
 | DESAFIOS DE PROJETOS |
 |---|
-| [Desafio Fundamentos](/DesafioFundamentos/)|
+| [Desafios de códigos](/desafios-de-codigos/)|
+| [Desafios de projetos](/desafios-de-projetos/)|
 
 ## 🚀 Considerações Finais
 
