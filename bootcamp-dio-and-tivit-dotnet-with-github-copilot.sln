@@ -1,0 +1,79 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "desafios-de-projetos", "desafios-de-projetos", "{88F605A9-CE14-FBAF-5311-21203372C0E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "desafios-de-codigos", "desafios-de-codigos", "{85EDB94A-B5AF-9513-6478-E08F2F4F997C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioFundamentos", "desafios-de-projetos\DesafioFundamentos\DesafioFundamentos.csproj", "{23EA89B8-7F04-42A4-E4BE-C26C098E3C40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "construindo-um-sistema-de-hospedagem-de-um-hotel", "construindo-um-sistema-de-hospedagem-de-um-hotel", "{4A3E3738-AB71-61AD-3AFA-1F0DD7F84886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioProjetoHospedagem", "desafios-de-projetos\construindo-um-sistema-de-hospedagem-de-um-hotel\DesafioProjetoHospedagem.csproj", "{692A8B39-3285-0516-5717-7672E1CF55CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoUmSistemaEAbstraindoUmCelularComPooEmCsharp", "desafios-de-projetos\CriandoUmSistemaEAbstraindoUmCelularComPooEmCsharp\CriandoUmSistemaEAbstraindoUmCelularComPooEmCsharp.csproj", "{E6C1F88B-1485-3E2E-4569-D5B47328F59C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista-de-tarefas-da-ia-dotnet", "desafios-de-codigos\lista-de-tarefas-da-ia-dotnet\lista-de-tarefas-da-ia-dotnet.csproj", "{BC723071-120C-2A46-3600-6DA20E13587C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista-de-sugestoes-inteligentes", "desafios-de-codigos\lista-de-sugestoes-inteligentes\lista-de-sugestoes-inteligentes.csproj", "{80BF1587-56BE-1689-3183-B01B1BF96180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aplicando-conceitos-de-poo-em-csharp", "aplicando-conceitos-de-poo-em-csharp", "{2E8CE3E6-04EE-9D1E-66C6-018ADA11FD00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chatbot-dotnet-mensagem-inteligente", "desafios-de-codigos\aplicando-conceitos-de-poo-em-csharp\chatbot-dotnet-mensagem-inteligente\chatbot-dotnet-mensagem-inteligente.csproj", "{587C7D03-137A-8132-A43B-3D44B80290BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "digital-assistant-saudacao-inteligente", "desafios-de-codigos\aplicando-conceitos-de-poo-em-csharp\digital-assistant-saudacao-inteligente\digital-assistant-saudacao-inteligente.csproj", "{D7A1B42C-7F94-9FD0-0DC6-4F41D5F52F9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23EA89B8-7F04-42A4-E4BE-C26C098E3C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EA89B8-7F04-42A4-E4BE-C26C098E3C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EA89B8-7F04-42A4-E4BE-C26C098E3C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EA89B8-7F04-42A4-E4BE-C26C098E3C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692A8B39-3285-0516-5717-7672E1CF55CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692A8B39-3285-0516-5717-7672E1CF55CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692A8B39-3285-0516-5717-7672E1CF55CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692A8B39-3285-0516-5717-7672E1CF55CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C1F88B-1485-3E2E-4569-D5B47328F59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C1F88B-1485-3E2E-4569-D5B47328F59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C1F88B-1485-3E2E-4569-D5B47328F59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C1F88B-1485-3E2E-4569-D5B47328F59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC723071-120C-2A46-3600-6DA20E13587C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC723071-120C-2A46-3600-6DA20E13587C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC723071-120C-2A46-3600-6DA20E13587C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC723071-120C-2A46-3600-6DA20E13587C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BF1587-56BE-1689-3183-B01B1BF96180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BF1587-56BE-1689-3183-B01B1BF96180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BF1587-56BE-1689-3183-B01B1BF96180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BF1587-56BE-1689-3183-B01B1BF96180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587C7D03-137A-8132-A43B-3D44B80290BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587C7D03-137A-8132-A43B-3D44B80290BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587C7D03-137A-8132-A43B-3D44B80290BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587C7D03-137A-8132-A43B-3D44B80290BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A1B42C-7F94-9FD0-0DC6-4F41D5F52F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A1B42C-7F94-9FD0-0DC6-4F41D5F52F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A1B42C-7F94-9FD0-0DC6-4F41D5F52F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A1B42C-7F94-9FD0-0DC6-4F41D5F52F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23EA89B8-7F04-42A4-E4BE-C26C098E3C40} = {88F605A9-CE14-FBAF-5311-21203372C0E9}
+		{4A3E3738-AB71-61AD-3AFA-1F0DD7F84886} = {88F605A9-CE14-FBAF-5311-21203372C0E9}
+		{692A8B39-3285-0516-5717-7672E1CF55CC} = {4A3E3738-AB71-61AD-3AFA-1F0DD7F84886}
+		{E6C1F88B-1485-3E2E-4569-D5B47328F59C} = {88F605A9-CE14-FBAF-5311-21203372C0E9}
+		{BC723071-120C-2A46-3600-6DA20E13587C} = {85EDB94A-B5AF-9513-6478-E08F2F4F997C}
+		{80BF1587-56BE-1689-3183-B01B1BF96180} = {85EDB94A-B5AF-9513-6478-E08F2F4F997C}
+		{2E8CE3E6-04EE-9D1E-66C6-018ADA11FD00} = {85EDB94A-B5AF-9513-6478-E08F2F4F997C}
+		{587C7D03-137A-8132-A43B-3D44B80290BF} = {2E8CE3E6-04EE-9D1E-66C6-018ADA11FD00}
+		{D7A1B42C-7F94-9FD0-0DC6-4F41D5F52F9C} = {2E8CE3E6-04EE-9D1E-66C6-018ADA11FD00}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E65565EF-211E-4AD0-B391-A8C906CFED06}
+	EndGlobalSection
+EndGlobal

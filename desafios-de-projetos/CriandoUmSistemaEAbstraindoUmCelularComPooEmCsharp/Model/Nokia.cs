@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 namespace CriandoUmSistemaEAbstraindoUmCelularComPooEmCsharp.Model
 {
     // TODO: Herdar da classe "Smartphone"
-    public class Iphone : Smartphone
+    public class Nokia : Smartphone
     {
-        public Iphone(string numero, string modelo, string imei, int memoria) : base(numero, modelo, imei, memoria)
+        public Nokia(string numero, string modelo, string imei, int memoria) : base(numero, modelo, imei, memoria)
         {
         }
 
