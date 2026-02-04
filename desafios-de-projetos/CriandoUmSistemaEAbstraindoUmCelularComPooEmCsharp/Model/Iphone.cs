@@ -15,7 +15,7 @@ namespace CriandoUmSistemaEAbstraindoUmCelularComPooEmCsharp.Model
         // TODO: Sobrescrever o método "InstalarAplicativo"
         public override void InstalarAplicativo(string nomeApp)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Instalando aplicativo \"{nomeApp.ToUpper()}\" no Iphone");
         }
     }
 }
