@@ -17,7 +17,7 @@ O seu banco de dados está modelado da seguinte maneira:
 As tabelas sao descritas conforme a seguir:
 
 |Tabela|Descrição|
-|---|---|
+|:---|:---|
 |**Filmes**|Tabela responsável por armazenar informações dos filmes.|
 |**Atores**|Tabela responsável por armazenar informações dos atores.|
 |**Generos**|Tabela responsável por armazenar os gêneros dos filmes.|
