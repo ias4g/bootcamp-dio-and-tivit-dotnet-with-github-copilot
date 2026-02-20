@@ -6,9 +6,9 @@ Verbo   Endpoint                 Parâmetro  Body
 - [x] GET     /Tarefa/{id}             id         N/A           
 - [x] PUT     /Tarefa/{id}             id         Schema Tarefa 
 - [x] DELETE  /Tarefa/{id}             id         N/A           
-- [ ] GET     /Tarefa/ObterTodos       N/A        N/A           
-- [ ] GET     /Tarefa/ObterPorTitulo   titulo     N/A           
-- [ ] GET     /Tarefa/ObterPorData     data       N/A           
+- [x] GET     /Tarefa/ObterTodos       N/A        N/A           
+- [x] GET     /Tarefa/ObterPorTitulo   titulo     N/A           
+- [x] GET     /Tarefa/ObterPorData     data       N/A           
 - [ ] GET     /Tarefa/ObterPorStatus   status     N/A           
 - [x] POST    /Tarefa                  N/A        Schema Tarefa 
 

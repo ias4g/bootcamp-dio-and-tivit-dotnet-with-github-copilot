@@ -1,6 +1,7 @@
 using api_with_entity_framework.Context;
 using api_with_entity_framework.Model;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace api_with_entity_framework.Controllers
 {
@@ -31,6 +32,59 @@ namespace api_with_entity_framework.Controllers
             if (task == null) return NotFound("Ops, Este registro não existem, tente novamente!");
 
             return Ok(task);
+        }
+
+        [HttpGet("ObterTodas")]
+        public IActionResult GetAllTask()
+        {
+            var tasks = _ctx.tarefas.ToList();
+
+            return Ok(tasks);
+        }
+
+        [HttpGet("ObterPorTitulo")]
+        public IActionResult GetTaskByTitle([FromQuery] string title)
+        {
+            var tasksByTitle = _ctx.tarefas.Where(t => EF.Functions.Like(t.Titulo, $"%{title}%")).ToList();
+
+            if (tasksByTitle.Count == 0) return NotFound($"Ops, Nehuma tarefa encontrada com o titulo [{title}]");
+
+            return Ok(tasksByTitle);
+        }
+
+        [HttpGet("ObterPorData")]
+        public IActionResult GetTaskByDate([FromQuery] DateTime date)
+        {
+            var tasksByDate = _ctx.tarefas.Where(t => t.Data.Date == date.Date).ToList();
+
+            if (tasksByDate.Count == 0)
+            {
+                return NotFound(new
+                {
+                    error = true,
+                    mensagem = "Nenhuma tarefa encontrada",
+                    data = date.ToString("yyyy-MM-dd"),
+                });
+            }
+
+            return Ok(tasksByDate);
+        }
+
+        [HttpGet("ObterPorStatus/{status}")]
+        public IActionResult GetTaskByStatus(EnumStatusTarefa status)
+        {
+            var taskByStatus = _ctx.tarefas.Where(t => t.EnumStatus == status).ToList();
+
+            if (taskByStatus.Count == 0)
+            {
+                return NotFound(new
+                {
+                    error = true,
+                    mensagem = $"Nenhuma tarefa encontrada com status {status}"
+                });
+            }
+
+            return Ok(taskByStatus);
         }
 
         [HttpPut("{id}")]
